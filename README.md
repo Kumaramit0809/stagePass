@@ -23,9 +23,9 @@ stagepass/
 ```bash
 cd backend
 npm install
-cp .env.example .env    # fill in your own values
-npm run migrate         # creates the database and tables
-npm run seed             # adds sample events, venues, and an admin user
+cp .env.example .env    
+npm run migrate         
+npm run seed            
 npm run dev
 ```
 Runs at `http://localhost:5000`
@@ -34,7 +34,7 @@ Runs at `http://localhost:5000`
 ```bash
 cd frontend
 npm install
-cp .env.example .env    # fill in your own values
+cp .env.example .env    
 npm run dev
 ```
 Runs at `http://localhost:5173`
